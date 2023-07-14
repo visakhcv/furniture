@@ -133,6 +133,15 @@ nav {
     }
 }
 
-@media (max-width:830px) {
-    
+@media (max-width:500px) {
+    .icons{
+        grid-template-columns: 20% 20% 20% 20%;
+    gap: 20px;
+    padding: 30px;
+    }
+    .icons img{
+        margin-left: 10px;
+        width: 90%;
+        height: 80px;
+    }
 }

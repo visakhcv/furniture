@@ -8,6 +8,7 @@ import mi from '../images/client-img/mi.png'
 import Onida from '../images/client-img/Onida.png'
 import samsung from '../images/client-img/samsung.png'
 import usha from '../images/client-img/usha.png'
+import { Email } from './Email'
 
 export default function Partner() {
 
@@ -17,13 +18,7 @@ export default function Partner() {
             <div className="row">
                 <div className="col-md-4">
                     <div class="contact-form">
-                        <form action="">
-                            <input type="" placeholder="Enter Your Name" required />
-                            <input type="email" placeholder="Enter Your mail" required />
-                            <input type="" placeholder="Enter Your Subject" />
-                            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required />
-                            <input type="submit" value="Submit" class="send" />
-                        </form>
+                        <Email/>
                     </div>
                 </div>
 
